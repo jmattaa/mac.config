@@ -15,8 +15,13 @@
 !/dunst
 
 # ignore some more
+# zsh
 zsh/.zsh_history
 zsh/.zsh_sessions/
+
+# tmux
+tmux/plugins/*
+
 
 # my plugin :>
 .quickmarks
