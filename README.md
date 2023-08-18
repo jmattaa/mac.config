@@ -1,1 +1,1 @@
-# My config
+# My config on mac :>
