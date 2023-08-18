@@ -1,0 +1,26 @@
+# ignore everything
+/*
+/*/
+
+# except
+# folders to use 
+# start with !
+!/nvim/
+!/tmux/
+!/zsh/
+!/i3
+!/polybar
+!/alacritty
+!/qutebrowser
+!/dunst
+
+# ignore some more
+zsh/.zsh_history
+zsh/.zsh_sessions/
+
+# my plugin :>
+.quickmarks
+*/.quickmarks
+
+!.gitignore
+!README.md
