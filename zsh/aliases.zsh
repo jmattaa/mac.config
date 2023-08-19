@@ -8,3 +8,4 @@ tn() {
     tmux new -s "$session_name"
 } 
 
+alias fcd="source ~/.fcd/fcd"

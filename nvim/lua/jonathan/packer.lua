@@ -51,5 +51,5 @@ return require('packer').startup(function(use)
     use ('davidgranstrom/nvim-markdown-preview')
 
     -- My plugins
-    use('/home/jonathan/Dev/NvimPlugins/quickmark.nvim')
+    use('jmattaa/quickmark.nvim')
 end)
