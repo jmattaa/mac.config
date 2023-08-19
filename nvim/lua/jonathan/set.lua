@@ -24,3 +24,4 @@ vim.opt.termguicolors = true
 vim.wo.cursorline = true
 
 vim.g.mapleader = " "
+

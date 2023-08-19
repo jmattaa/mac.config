@@ -48,7 +48,16 @@ return require('packer').startup(function(use)
     }
 
     -- Markdown preview
-    use ('davidgranstrom/nvim-markdown-preview')
+    use('davidgranstrom/nvim-markdown-preview')
+
+    -- noice nvim
+    use {
+        "folke/noice.nvim",
+        requires = {
+            {"MunifTanjim/nui.nvim"},
+            {"rcarriga/nvim-notify"},
+        }
+    }
 
     -- My plugins
     use('jmattaa/quickmark.nvim')
