@@ -29,7 +29,15 @@ require('lualine').setup {
         lualine_a = { 'mode' },
         lualine_b = { 'branch', 'diff', 'diagnostics' },
         lualine_c = { 'filename' },
-        lualine_x = { 'filetype' },
+        lualine_x = {
+            {
+                require("noice").api.status.command.get,
+                cond = require("noice").api.status.command.has,
+                color = {
+                    fg = auto_theme_custom.visual.a.bg,
+                },
+            },
+        },
         lualine_y = { 'progress' },
         lualine_z = { 'location' }
     },
@@ -46,4 +54,3 @@ require('lualine').setup {
     inactive_winbar = {},
     extensions = {}
 }
-
