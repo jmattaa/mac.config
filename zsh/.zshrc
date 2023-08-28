@@ -8,8 +8,6 @@ export SAVEHIST=10000
 setopt HIST_IGNORE_ALL_DUPS
 # history won't show duplicates on search.
 setopt HIST_FIND_NO_DUPS
-# so nvim look better
-export TERM='xterm-256color'
 
 # honestly idk what this is 
 # but it lets the fzf completion work so yeeeees
