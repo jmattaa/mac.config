@@ -1,12 +1,13 @@
 window:
   dynamic_padding: true
+  decorations: none
   padding:
     x: 0
     y: 0 
   class:
     instance: Alacritty
     general: Alacritty
-  opacity: 1
+  opacity: .8
   option_as_alt: Both
 
 scrolling:
