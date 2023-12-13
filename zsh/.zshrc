@@ -42,6 +42,9 @@ source "$ZDOTDIR/aliases.zsh"
 ## Homebrew Path
 export PATH="/opt/homebrew/bin:$PATH"
 
+## Macports path
+export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
+
 # >>> conda initialize >>>
 # !! Contents within this block are managed by 'conda init' !!
 __conda_setup="$('/Users/jonathan.matta/miniconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
