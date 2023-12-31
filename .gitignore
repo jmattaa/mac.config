@@ -19,10 +19,6 @@
 zsh/.zsh_history
 zsh/.zsh_sessions/
 
-# tmux
-tmux/plugins/*
-
-
 # my plugin :>
 .quickmarks
 */.quickmarks
