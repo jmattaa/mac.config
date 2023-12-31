@@ -8,11 +8,8 @@
 !/nvim/
 !/tmux/
 !/zsh/
-!/i3
-!/polybar
 !/alacritty
 !/qutebrowser
-!/dunst
 
 # ignore some more
 # zsh
