@@ -9,3 +9,6 @@ tn() {
 } 
 
 alias fcd="source ~/.fcd/fcd"
+
+# fuck
+eval $(thefuck --alias)
