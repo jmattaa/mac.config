@@ -38,7 +38,6 @@ SPACESHIP_CHAR_SUFFIX=" "
 ## Aliases
 source "$ZDOTDIR/aliases.zsh"
 
-
 ## Homebrew Path
 export PATH="/opt/homebrew/bin:$PATH"
 
@@ -59,4 +58,7 @@ else
 fi
 unset __conda_setup
 # <<< conda initialize <<<
+
+# init zoxide
+eval "$(zoxide init zsh)"
 
