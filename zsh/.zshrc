@@ -41,6 +41,10 @@ source "$ZDOTDIR/aliases.zsh"
 ## Homebrew Path
 export PATH="/opt/homebrew/bin:$PATH"
 
+## PKG_CONFIG Path
+export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
+
+
 ## Macports path
 export PATH="/opt/local/bin:/opt/local/sbin:$PATH"
 
