@@ -42,7 +42,7 @@ source "$ZDOTDIR/aliases.zsh"
 export LIBRARY_PATH="/opt/homebrew/lib:$LIBRARY_PATH"
 export LD_LIBRARY_PATH="/opt/homebrew/lib:$LD_LIBRARY_PATH"
 export PKG_CONFIG_PATH="/opt/homebrew/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PATH="/opt/homebrew/bin:$PATH"
+export PATH="/opt/homebrew/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:$PATH"
 
 ## PKG_CONFIG Path
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig:$PKG_CONFIG_PATH
