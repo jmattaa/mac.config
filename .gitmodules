@@ -7,5 +7,5 @@
 	path = tmux
 	url = https://github.com/jmattaa/tmux.conf
 [submodule "kitty"]
-    path = kitty
-    url = https://github.com/jmattaa/kitty.conf
+	path = kitty
+	url = https://github.com/jmattaa/kitty.conf
