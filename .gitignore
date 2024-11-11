@@ -15,6 +15,10 @@
 !/kitty
 !/yabai
 
+# ignore some
+# karabiner
+karabiner/automatic_backups
+
 # ignore some more
 # zsh
 zsh/.zsh_history
@@ -23,6 +27,8 @@ zsh/.zsh_sessions/
 # my plugin :>
 .quickmarks
 */.quickmarks
+
+*/,DS_Store
 
 !.gitignore
 !README.md
