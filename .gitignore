@@ -30,7 +30,7 @@ zsh/.zsh_sessions/
 .quickmarks
 */.quickmarks
 
-*/,DS_Store
+*/.DS_Store
 
 !.gitignore
 !README.md
