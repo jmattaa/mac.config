@@ -1,30 +1,13 @@
 (defsrc
-    esc  f1   f2   f3   f4   f5   f6   f7   f8   f9   f10  f11  f12
-    grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
-    tab  q    w    e    r    t    y    u    i    o    p    [    ]    
-    caps a    s    d    f    g    h    j    k    l    ;    '    ret
-    lsft z    x    c    v    b    n    m    ,    .    /    rsft
-    lctl           lalt lmet          spc            rmet ralt
+    caps 
 )
 
-(defvar
-    tap-time 100
-    hold-time 50
-)
+(defcfg process-unmapped-keys yes)
 
 (defalias
-     mc C-up ;; mission control
-     sls M-spc ;; spotlight search
-     dtn S-C-A-M-f5 ;; dictation
-     dnd S-C-A-M-f6 ;; do not disturb
-     cec (tap-hold $tap-time $hold-time esc lctl) ;; escape ctrl
- )
+     escctrl (tap-hold-press 50 50 esc lctl) 
+)
 
 (deflayer default
-    esc  f1   f2   @mc  @sls @dtn @dnd f7   f8   f9   f10  f11  f12
-    grv  1    2    3    4    5    6    7    8    9    0    -    =    bspc
-    tab  q    w    e    r    t    y    u    i    o    p    [    ]    
-    @cec a    s    d    f    g    h    j    k    l    ;    '    ret
-    lsft z    x    c    v    b    n    m    ,    .    /    rsft
-    lctl           lalt lmet          spc            rmet ralt
+    @escctrl
 )
