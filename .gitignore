@@ -11,15 +11,11 @@
 !/alacritty
 !/qutebrowser
 !/sketchybar
-!/karabiner
 !/kitty
 !/yabai
 !/lsr
 !/ghostty
-
-# ignore some
-# karabiner
-karabiner/automatic_backups
+!/kanata
 
 # ignore some more
 # zsh
