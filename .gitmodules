@@ -1,14 +1,9 @@
-[submodule "./nvim"]
-	url = https://github.com/jmattaa/nvim.conf
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/jmattaa/nvim.conf
 [submodule "tmux"]
 	path = tmux
 	url = https://github.com/jmattaa/tmux.conf
-[submodule "kitty"]
-	path = kitty
-	url = https://github.com/jmattaa/kitty.conf
 [submodule "zsh"]
 	path = zsh
 	url = https://github.com/jmattaa/zsh
