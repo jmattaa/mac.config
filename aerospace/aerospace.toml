@@ -135,7 +135,7 @@ automatically-unhide-macos-hidden-apps = false
     ctrl-shift-9 = 'move-node-to-workspace 9'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace-back-and-forth
-    ctrl-tab = 'workspace-back-and-forth'
+    alt-tab = 'workspace-back-and-forth'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#mode
     alt-shift-semicolon = 'mode service'
