@@ -93,6 +93,10 @@ automatically-unhide-macos-hidden-apps = false
     # end tell'
     # '''
 
+    # https://nikitabobko.github.io/AeroSpace/goodies#disable-hide-app
+    cmd-h = [] # Disable "hide application"
+    cmd-alt-h = [] # Disable "hide others"
+
     # See: https://nikitabobko.github.io/AeroSpace/commands#layout
     ctrl-slash = 'layout tiles horizontal vertical'
     ctrl-comma = 'layout accordion horizontal vertical'
