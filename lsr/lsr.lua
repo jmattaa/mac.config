@@ -18,5 +18,6 @@ L_default_args = {
     symlinks = true,
     git = { status = false, ignore = false },
     long = false,
+    sort = true,
     filters = {},
 }
