@@ -7,8 +7,8 @@ function L_long_format(entry, longest_name)
     local owner = string.format("%-" .. longest_name .. "s ", entry.owner)
 
     return string.format("%s %s%s %s%s ",
-        last_modified, L_colors.MEDIA, size,
-        L_colors.SYMLINK, owner)
+        last_modified, Colors.MEDIA, size,
+        Colors.SYMLINK, owner)
 end
 
 L_default_args = {
@@ -17,6 +17,8 @@ L_default_args = {
     directories = true,
     symlinks = true,
     git = { status = false, ignore = false },
+    recursive = false,
+    directory_size = false,
     long = false,
     sort = true,
     filters = {},
