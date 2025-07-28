@@ -1,0 +1,38 @@
+{
+    "description": "Caps Lock as Control when held, Escape when tapped; remap Esc to Caps Lock",
+    "manipulators": [
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "caps_lock",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "left_control"
+                }
+            ],
+            "to_if_alone": [
+                {
+                    "key_code": "escape"
+                }
+            ]
+        },
+        {
+            "type": "basic",
+            "from": {
+                "key_code": "escape",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [
+                {
+                    "key_code": "caps_lock"
+                }
+            ]
+        }
+    ]
+}
