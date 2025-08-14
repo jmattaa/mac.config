@@ -9,9 +9,9 @@
 !/tmux/
 !/zsh/
 !/lsr
-!/ghostty
-!/karabiner
-!/aerospace
+!/ghostty/
+!/karabiner/
+!/aerospace/
 !/zls.json
 
 # ignore some more
