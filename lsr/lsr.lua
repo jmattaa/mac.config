@@ -1,4 +1,5 @@
 require "colors"
+require "filters"
 local utils = require "utils"
 
 function L_long_format(entry, longest_name)
@@ -20,6 +21,7 @@ L_default_args = {
     recursive = false,
     directory_size = false,
     long = false,
+    ensure_colors = true,
     sort = true,
     filters = {},
 }
