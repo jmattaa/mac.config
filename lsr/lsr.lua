@@ -21,7 +21,7 @@ L_default_args = {
     recursive = false,
     directory_size = false,
     long = false,
-    ensure_colors = true,
+    ensure_colors = false,
     sort = true,
     filters = {},
 }
