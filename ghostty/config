@@ -1,7 +1,6 @@
 custom-shader=shaders/cursor.glsl
 
-theme = "Gruvbox Dark Hard"
-background = "#121212"
+config-file = ./theme
 
 font-family = "VictorMono Nerd Font"
 window-decoration = false
