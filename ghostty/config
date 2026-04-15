@@ -2,7 +2,7 @@ custom-shader=shaders/cursor.glsl
 
 config-file = ./theme
 
-font-family = "VictorMono Nerd Font"
+font-family = "RecMonoCasual Nerd Font"
 window-decoration = false
 
 window-padding-balance = true
